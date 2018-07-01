@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mauricios/TestGitChanges#readme",
   "devDependencies": {
-    "semantic-release": "^15.6.0"
+    "commitizen": "^2.10.1",
+    "semantic-release": "^15.6.0",
+    "semantic-release-noop": "^1.1.0"
   }
 }
