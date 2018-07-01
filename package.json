@@ -1,0 +1,22 @@
+{
+  "name": "testgitchanges",
+  "version": "1.0.0",
+  "description": "Testing git changes in the repository for 3party tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricios/TestGitChanges.git"
+  },
+  "author": "Mauricio Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauricios/TestGitChanges/issues"
+  },
+  "homepage": "https://github.com/mauricios/TestGitChanges#readme",
+  "devDependencies": {
+    "semantic-release": "^15.6.0"
+  }
+}
