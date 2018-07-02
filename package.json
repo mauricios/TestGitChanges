@@ -1,6 +1,6 @@
 {
   "name": "testgitchanges",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Testing git changes in the repository for 3party tools",
   "main": "index.js",
   "scripts": {
@@ -17,15 +17,16 @@
   },
   "homepage": "https://github.com/mauricios/TestGitChanges#readme",
   "devDependencies": {
+    "@semantic-release/gitlab": "github:semantic-release/gitlab",
     "commitizen": "^2.10.1",
     "cz-conventional-changelog": "^2.1.0",
     "last-release-git": "0.0.3",
     "semantic-release": "^15.6.0",
     "semantic-release-noop": "^1.1.0"
   },
-"release": {
-  "getLastRelease": "last-release-git"
-},  
+  "release": {
+    "npmPublish": false
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
